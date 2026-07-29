@@ -2,7 +2,7 @@ FROM python:3.14-slim
 
 WORKDIR /data
 
-RUN pip install django==3.2
+RUN pip install django==6.0
 
 COPY . .
 
